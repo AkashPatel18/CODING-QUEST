@@ -9,4 +9,4 @@ class Solution:
 		for i in range(len(nums)-1):
 		    temp = min(nums[i+1]-nums[i], temp)
 
-		return temp
+		return temp     
