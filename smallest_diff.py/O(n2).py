@@ -8,7 +8,6 @@ def smallestDiff(a,b):
     a.sort()
     b.sort()
 
-    difference = 0
 
     while f<n and s<m:
         firstnum = a[f]
